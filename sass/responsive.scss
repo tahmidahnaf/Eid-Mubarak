@@ -1,0 +1,213 @@
+@media screen and (max-width: 930px){
+    body{
+        .vectors{
+            img{
+                height: 100px;
+            }
+            .c{
+                left: 0px;
+            }
+            .r{
+                right: 0px;
+            }
+            .t{
+                top: 0px;
+                right: 150px;
+            }
+            .s{
+                height: 60px;
+            }
+        }
+        .element{
+            .img{
+                img{
+                    height: 150px;
+                }
+                .v1{
+                    top: 100px;
+                    height: 60px;
+                }
+                .v2{
+                    top: 330px;
+                    height: 80px;
+                }
+                .v3{
+                    top: 100px;
+                    height: 130px;
+                    transform: translate(-180%);
+                }
+                .v4{
+                    height: 80px;
+                    top: 100px;
+                    transform: translate(120%);
+                }
+                .v5{
+                    height: 80px;
+                    top: 320px;
+                    transform: translate(-250%);
+                }
+                .v6{
+                    height: 80px;
+                    top: 320px;
+                    transform: translate(130%);
+                }
+            }
+            .eid{
+                height: 200px;
+                width: 300px;
+                font-size: 65px;
+                p{
+                    width: 60px;
+                }
+            }
+            .copyright{
+                height: 50px;
+                width: 80vw;
+                position: absolute;
+                bottom: 130px;
+                background-color: rgba($color: #C4C4C4, $alpha: 0.4);
+                left: 50%;
+                transform: translate(-50%);
+                border-radius: 20px;
+                text-align: center;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        .vectors{
+            img{
+                height: 70px;
+            }
+            .c{
+                top: 100px;
+            }
+            .r{
+                top: 400px;
+            }
+            .t{
+                top: 0px;
+                right: 150px;
+            }
+            .s{
+                bottom: 120px;
+            }
+        }
+        .element{
+            .img{
+                img{
+                    height: 100px;
+                }
+                .v1{
+                    top: 110px;
+                    height: 40px;
+                }
+                .v2{
+                    top: 280px;
+                    height: 50px;
+                }
+                .v3{
+                    top: 110px;
+                    height: 90px;
+                }
+                .v4{
+                    height: 50px;
+                    top: 120px;
+                    transform: translate(130%);
+                }
+                .v5{
+                    height: 60px;
+                    top: 280px;
+                    transform: translate(-230%);
+                }
+                .v6{
+                    height: 50px;
+                    top: 280px;
+                }
+            }
+            .eid{
+                height: 150px;
+                width: 200px;
+                font-size: 55px;
+                p{
+                    width: 60px;
+                    line-height: 40px;
+                }
+            }
+            .copyright{
+                height: 50px;
+                width: 80vw;
+                position: absolute;
+                bottom: 130px;
+                background-color: rgba($color: #C4C4C4, $alpha: 0.4);
+                left: 50%;
+                transform: translate(-50%);
+                border-radius: 20px;
+                text-align: center;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    body{
+        .element{
+            top: 100px;
+            .img{
+                .v1{
+                    top: 120px;
+                    height: 30px;
+                }
+                .v2{
+                    top: 240px;
+                    height: 35px;
+                }
+                .v3{
+                    top: 120px;
+                    height: 60px;
+                }
+                .v4{
+                    height: 35px;
+                    top: 130px;
+                    transform: translate(140%);
+                }
+                .v5{
+                    height: 40px;
+                    top: 230px;
+                }
+                .v6{
+                    height: 40px;
+                    top: 230px;
+                }
+            }
+            .eid{
+                height: 100px;
+                width: 150px;
+                font-size: 40px;
+                p{
+                    width: 25px;
+                    line-height: 30px;
+                }
+            }
+            .copyright{
+                height: 30px;
+                width: 80vw;
+                position: absolute;
+                bottom: 130px;
+                background-color: rgba($color: #C4C4C4, $alpha: 0.4);
+                left: 50%;
+                transform: translate(-50%);
+                border-radius: 10px;
+                text-align: center;
+                padding-top: 5px;
+                font-size: 15px;
+            }
+        }
+    }
+}
